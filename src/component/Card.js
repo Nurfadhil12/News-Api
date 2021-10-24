@@ -5,7 +5,7 @@ const CompCard = ({ datas }) => {
   return (
     <div>
       <Col>
-        <Card style={{ width: '22rem' }} className="mb-5">
+        <Card  className="mb-5">
           <Card.Img variant="top" src={datas.urlToImage} />
           <Card.Body>
             <Card.Title>{datas.title}</Card.Title>
